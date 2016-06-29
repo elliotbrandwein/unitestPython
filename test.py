@@ -58,5 +58,8 @@ class Test (unittest.TestCase):
     def test_skip(self):
         print("this is in the skip, it shouldn't print")
 
+    def bad_syntax(self):
+        print("this shouldn't get run because it doesn't start with tests")
+
 if __name__ == '__main__':
     unittest.main()
