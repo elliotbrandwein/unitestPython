@@ -6,7 +6,6 @@ import unittest
 # this class, shit would go haywire.
 
 
-
 class SampleMath:
 
     # FIXME Must add the staticmethod decorators
